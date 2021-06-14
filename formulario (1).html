@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+
+    <link rel="icon" type="img/png" href="img/logo.png"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+     <!-- MENÚ -->
+     <div class="container-fluid navbar-fixed-top">
+        <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
+          <div class="col-xs-6">
+            <a data-scroll href="index.html" class="btn btn" role="button" aria-pressed="true"><img id="m" src="img/logo.png" alt=""></a>
+          </div>
+          <div class="row mx-auto h-100 justify-content-center align-items-center">
+           <!-- BUSCADOR -->
+           <div class="header_search">
+            <form action="#" id="header_search_form">
+              <input type="text" class="search_input" placeholder="BUSCAR" required="required">
+              <button class="header_search_button"></button>
+            </form>
+          </div>
+
+          <div class="header_phone d-flex flex-row align-items-center justify-content-start">
+            <div><div><img src="img/phone.svg" alt="https://www.flaticon.com/authors/freepik" height="35" width="35"></div></div>
+            <div>809-449-6210</div>
+          </div>
+          </div>
+         
+        </div>
+      </div>
+      <!-- FIN MENU -->
+
+      <div class="ventana" id="vent">
+      
+        <div id="cerrar">  <a href="javascript:cerrar()"><img src="img/cerrar.png" alt="" height="40" width="40"></a></div>
+
+        Gracias por preferirnos
+    </div>
+
+      <div class="row altura">
+        
+        <div class="col-8 ">
+          <form action="pago.html" method="get">
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Nombre Completo</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Angel Rodriguez">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Direccion</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="los frias">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Ciudad</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="santiago">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Estado o Provincia</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="jacagua">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Codigo Postal</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="51000">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput" id="n">Numero de Telefono</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="849-443-4312">
+            </div>
+           </form>
+           
+           <a href="javascript:abrir()">
+           <button type="submit" class="btn btn-primary">Enviar</button></a>
+        </div>
+
+         <!-- FOOTER -->
+  <div id="k" class="container-fluid footer">
+  
+     
+    <center>
+     
+      <p id="t">servicio al cliente</p>
+     <a href="Nosotros.html">
+     <p  class="zoom">Nosotros</p></a>
+     <div class="col-md-4">
+      <ul class="list-inline social-buttons">
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/">
+            <i class="fab fa-twitter"><img src="img/facebook.png" alt="" width="30" height="30"  class="zoom"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/?hl=es-la">
+            <i class="fab fa-facebook-f"><img src="img/instagram.png" alt="" width="30" height="30"  class="zoom"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/login?lang=es">
+            <i class="fab fa-linkedin-in"><img src="img/twitter.png" alt="" width="30" height="30"  class="zoom"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div><h6>Copyright ©      vane_eventsrd 2020</a></h6></div>
+    </div>
+      </center>
+     
+      <!-- FIN FOOTER -->
+
+        <script>
+
+            function abrir(){
+                document.getElementById("vent") .style.display="block";
+            }
+      
+            
+            function cerrar(){
+                document.getElementById("vent") .style.display="none";   
+            }    
+      
+        </script>
+        
+</body>
+</html>
