@@ -1,0 +1,119 @@
+body{
+	color:#fff;
+}
+.menu-1{
+	height: 70px;
+	background: #97eb82;
+}
+#le{
+	font: oblique bold 120% cursive;
+	color: black;
+}
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 100vh;
+	text-align: center;
+}
+.slider-1{
+	background: #ffffff;
+}
+.slider-2{
+	background: #ffffff;
+}
+.slider-3{
+	background: #ffffff;
+}
+.slider-4{
+	background: #ffffff;
+}
+.footer{
+	background: rgb(152, 230, 122);
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+/*contactanos*/
+.contact_form{  
+	width: 460px; 
+	height: auto;
+	margin: 65px auto;
+	border-radius: 10px;  
+	padding-top: 10px;
+	padding-bottom: 20px;  
+	background-color: #fbfbfb; 
+	padding-left: 15px; 
+  }
+  
+  
+  input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #f7f1a0; 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+	background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #f7f1a0; 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+	padding-top: 15px; 
+  }
+  
+  
+  label{
+	display: block; 
+	float: center;  
+  }
+  
+  
+  button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px;   
+	margin-bottom: 20px; 
+	margin-top: 10px;   
+	text-transform: uppercase;
+	background-color: #f7f1a0; 
+	border-color: #f7f1a0; 
+	border-style: solid; 
+	border-radius: 10px;  
+	width: 420px;   
+	cursor: pointer;
+  }
+  
+  
+  button p{
+	color: rgb(5, 0, 0); 
+  }
+  
+  
+  span{
+	color: #080800; 
+  }
+  
+  
+  .aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+  }
+  
+  
+  h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #ab4493;
+  }
