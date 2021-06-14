@@ -251,3 +251,27 @@ top: -50px;
 fin
 
 ****/
+/*******
+  ventana emergente
+*******/
+.ventana{
+    background: #e7ee80;
+    width: 30%;
+    color: black;
+    font-family: fantasy;;
+    font-size: 30px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 68%;
+    top: 30%;
+    display: none;
+
+}
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
